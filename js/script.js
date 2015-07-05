@@ -7,8 +7,7 @@ $(document).ready(function() {
 		// prevent from auto-submitting  
 		ev.preventDefault();
 		ev.stopPropagation();
-
-		// if all is good, then submit.
+        // if all is good, then submit.
 		sendData();
 
 	});
