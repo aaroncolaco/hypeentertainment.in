@@ -16,8 +16,7 @@ body {
 position:relative;
 left:68px;
 font-size:20px;
-
-
+height:100%;
 }
 
 .navbar {
@@ -30,13 +29,6 @@ font-size:20px;
 
 .navbar > .navbar-collapse {
 	text-align: center;
-}
-.para {
-	background-image: url("/Images/wedding4.jpg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	height: 100%;
-	background-size: cover;
 }
 
 .para .container {
@@ -72,4 +64,5 @@ font-size:20px;
 
 .rights .container{
 	margin-top:0px;
+	color:#f7f7f7;
 }
