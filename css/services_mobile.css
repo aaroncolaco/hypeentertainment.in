@@ -1,0 +1,65 @@
+html{
+	height: 100%;
+}
+body{
+	
+	height: 100%;
+	padding-top: 40px;
+	background-image: url('bonfire.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0px;
+	background-attachment: fixed;
+}
+.navbar{
+	width: 100%;
+	z-index:1;
+	background-color:#fff;
+}
+
+.para h1 {
+	margin-top:5%;
+	margin-bottom:0%;
+    color: #fff;
+    font-size: 28px;  
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
+    text-align:left;
+}
+.para img{
+width:160px;
+height:80px;
+}
+.para p {
+	margin-bottom:9%;
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Comic Sans', serif;
+    text-align:left;
+    margin-right:0px;
+    margin-left:40px;
+}
+.para a{
+      margin-bottom: 20%;
+	font-size: 10px;
+	color:#fff;
+	font-family: 'Comic Sans',serif
+} 
+.contacts img{
+	height: 15px;
+	width: 15px;
+}
+.contacts p{
+	font-family:'Arial',sans-serif;
+	font-size:8px;
+	color:##FFFFFF;
+	display:inline;
+	margin-right: 12px;
+        margin-top:50px;
+        
+
+}
+
+.rights .container{
+	margin-top:-20px;
+}
