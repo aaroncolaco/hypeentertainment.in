@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background-image:url('bonfire.jpg');
+	background-image:url('/images/bonfire.jpg');
 	height: 100%;	
 	background-repeat: no-repeat;
 	background-size: cover;
