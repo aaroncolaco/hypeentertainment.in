@@ -8,7 +8,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 0px;
-	background-attachment: fixed
+	background-attachment: relative;
 
 }
 
@@ -40,20 +40,33 @@ body {
     font-family: 'Comic Sans', serif;
 }
 
-.contacts img{
+.email img{
 	height:25px;
 	width:25px;
-	margin-left:0px;
 }
 
-.contacts p{
+.phone img {
+	height:25px;
+	width:25px;
+}
+
+.phone a{
+
 	font-family:'Arial',sans-serif;
 	font-size:12px;
 	color:#f7f7f7;
-	display:inline;
-	margin-right: 12px;
+
 }
 
+.email a{
+    font-family:'Arial',sans-serif;
+	font-size:12px;
+	color:#f7f7f7;
+
+}
 .rights .container{
+	color:#f7f7f7;
 	margin-top:-20px;
 }
+
+
