@@ -7,9 +7,9 @@ body{
 	padding-top: 40px;
 	background-image: url('/images/rave.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
 	margin-bottom: 0px;
 	background-attachment: fixed;
+	background-position:center;
 }
 .navbar{
 	width: 100%;
@@ -25,6 +25,7 @@ font-size: 30px;
 font-family: 'shift',sans-serif;
 font-weight: bold;
 position: relative;
+text-align: center;
 }
 .para p{
 	margin-bottom: 20%;
@@ -53,3 +54,8 @@ position: relative;
 	padding: 4px 2px;
 	text-transform: uppercase;
 }*/
+.rights .container{
+	color:#fff;
+	text-align: center;
+	padding-top: 50px;
+}
