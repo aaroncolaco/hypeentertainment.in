@@ -1,4 +1,12 @@
- 
+ body {
+    background-image:url('/images/henna.jpg');
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-bottom:0px;
+    background-attachment: fixed;
+
+     }
 
     div.img {
     margin-top: 50px;
@@ -13,8 +21,8 @@
 
 div.img img {
     display: inline;
-    margin: 5px;
-    border: 1px solid #ffffff;
+    margin: 5%;
+    border: 1% solid #ffffff;
 }
 
 div.img a:hover img {
@@ -26,7 +34,7 @@ div.img a:hover img {
 div.desc {
     text-align: center;
     font-weight: normal;
-    width: 120px;
-    margin: 5px;
+    width: 120%;
+    margin: 5%;
 }
  
