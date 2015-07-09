@@ -27,7 +27,7 @@ body {
 	margin-top:10%;
 	margin-bottom: 10%;
     color: #fff;
-    font-size: 48px;  
+    font-size:48px;  
     font-family: 'Times New Roman', sans-serif;
     font-weight: bold;
     text-align:center;
@@ -41,18 +41,18 @@ body {
 }
 
 .email img{
-	height:25px;
-	width:25px;
+	height:0.25%;
+	width:2%;
 	margin-top:-20px;
 }
 
 .phone img {
-	height:25px;
-	width:25px;
+	height:0.25%;
+	width:2%;
 }
 
 .phone a{
-    margin-right:5px;
+    margin-right:0.5%;
 	font-family:'Arial',sans-serif;
 	font-size:13px;
 	color:#f7f7f7;
@@ -62,22 +62,22 @@ body {
     font-family:'Arial',sans-serif;
 	font-size:12px;
 	color:#f7f7f7;
-    margin-top:-7px;
-    margin-left:5px;
+    margin-top:-0.5%;
+    margin-left:0.5%;
     position: fixed;
 }
 .rights .container{
 	color:#f7f7f7;
-	margin-top:-50px;
+	margin-top:-3.8%;
 }
 
 .rights a{
-	margin-left:5px;
-	margin-right:5px;
+	margin-left:0.5%;
+	margin-right:0.5%;
 }
 
 .rights p{
-	margin-left:5px;
+	margin-left:0%;
 }
 
 
