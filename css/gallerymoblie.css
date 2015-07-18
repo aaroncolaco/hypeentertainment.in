@@ -1,8 +1,12 @@
+html {
+    height: 100%;
+}
 body {
     height: 100%;
     padding-top: 40px;
     background-image: url('/immages/henna.jpg');
     background-repeat: no-repeat;
+    background-size:cover;
     margin-bottom: 0px;
     background-attachment: fixed;
 } 
@@ -10,7 +14,6 @@ body {
     div.img {
     margin-top: 50px;
     padding-top: 50px;
-    border: 1px solid #ffffff;
     height: 175;
     width: 175;
      
@@ -21,7 +24,7 @@ body {
 div.img img {
     display: inline;
     margin: 5px;
-    border: 1px solid #ffffff;
+   
 }
 
 div.img a:hover img {
