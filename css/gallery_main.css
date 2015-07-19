@@ -9,9 +9,8 @@
      }
 
     div.img {
-    margin-top: 50px;
-    padding-top: 50px;
-    border: 1px solid #ffffff;
+    margin-top: 100px;
+    padding-top: 100px;
     height: 175;
     width: 175;
      
@@ -21,12 +20,12 @@
 
 div.img img {
     display: inline;
-    margin: 5%;
-    border: 1% solid #ffffff;
+    margin: 5px;
+   
 }
 
 div.img a:hover img {
-    border:1px solid #0000ff;
+    border:1px solid #ffffff;
     width: 350px;
     height: 350px;
 }
@@ -34,7 +33,7 @@ div.img a:hover img {
 div.desc {
     text-align: center;
     font-weight: normal;
-    width: 120%;
-    margin: 5%;
+    width: 120px;
+    margin: 5px;
 }
  

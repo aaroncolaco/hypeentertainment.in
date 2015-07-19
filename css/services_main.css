@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background-image:url('/images/bonfire.jpg');
+	background-image:url('/images/birthday2.jpg');
 	height: 100%;	
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -24,7 +24,7 @@ body {
 	text-align: center;
 }
 .para h1 {
-	margin-top:15%;
+	margin-top:10%;
 	margin-bottom:0%;
     color: #fff;
     font-size: 48px;  
@@ -33,9 +33,12 @@ body {
     text-align:center;
 }
 .para img{
-width:560px;
+    width:520px;
+    margin-top:0.5%;
+    margin-left:2.8%;
 }
 .para p {
+	margin-top:2.8%;
 	margin-bottom:0%;
     font-size: 20px;
     color: #fff;
@@ -44,7 +47,7 @@ width:560px;
     margin-right:60px;
     margin-left:30px;
 }
-.para a{
+.para li{
       margin-bottom:0%;
       margin-top:0%;
     text-align:middle;
@@ -55,27 +58,47 @@ width:560px;
 	font-family: 'Comic Sans',serif
 } 
 
-.contacts img{
-	height:25px;
-	width:25px;
-	margin-left:0px;
-        padding-top:50px;
+.email img{
+	height:0.25%;
+	width:2%;
+	margin-top:0%;
+}
+.contacts .container{
+	color:#f7f7f7;
+	margin-top:6.8%;
+
 }
 
-.contacts p{
+.phone img {
+	height:0.25%;
+	width:2%;
+}
+
+.phone a{
+    margin-right:0.5%;
 	font-family:'Arial',sans-serif;
-	font-size:12px;
-	color:#FFFFFF;
-	display:inline;
-        padding-top:80px;
-	margin-right: 12px;
-        
-
+	font-size:13px;
+	color:#f7f7f7;
 }
 
-.rights {
-	margin-top:-20px;
-        margin-right:40px;
-        padding-top:50px;
-        color:#FFFFFF;
+.email a{
+    font-family:'Arial',sans-serif;
+	font-size:12px;
+	color:#f7f7f7;
+    margin-top:-1.5%;
+    margin-left:0.5%;
+}
+
+.rights .container{
+	color:#f7f7f7;
+	margin-top:-3.0%;
+}
+
+.rights a{
+	margin-left:0.5%;
+	margin-right:1.5%;
+}
+
+.rights p{
+	margin-left:0%;
 }

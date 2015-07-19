@@ -2,12 +2,13 @@ html{
 	height: 100%;
 }
 body{
-	background-image:url('/images/wedding4.jpg');
+	background-image:url('/images/party3.jpg');
 	height: 100%;
 	padding-top: 40px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 0px;
+	background-position: center;
 	background-attachment: fixed;
 }
 .navbar{
@@ -29,7 +30,7 @@ body{
 
 .para .container h4 {
         
-	color: #ff6666;
+	color: #fff;
 }
 
 .para .form {
@@ -37,30 +38,18 @@ body{
 	width:80%
 }
 
+.contacts .container{
+	margin-top:-20%;
+}
 .contacts img{
 	height: 25px;
 	width: 25px;
 }
+
 .rights .container{
-	margin-top:0px;
-	color:#f7f7f7;
+	color:#fff;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 20%;
+	padding-right: 26%;
 }
-/*.others{
-	margin-left: 15px;
-	margin-right: 15px;
-	position: inline;
-}*/
-.contacts p{
-	font-family:'Arial',sans-serif;
-	font-size:12px;
-	color:#f7f7f7;
-	display:inline;
-	margin-right: 12px;
-}
-/*.nav a{
-	color:#5a5a5a;
-	font-size: 9px;
-	font-weight: bold;
-	padding: 4px 2px;
-	text-transform: uppercase;
-}*/
