@@ -48,20 +48,30 @@ height:100%;
 }
 
 
-.contacts img{
+.email img{
 	height:25px;
 	width:25px;
-	margin-left:0px;
 }
 
-.contacts p{
+.phone img {
+	height:25px;
+	width:25px;
+}
+
+.phone a{
+
 	font-family:'Arial',sans-serif;
+	font-size:13px;
+	color:#f7f7f7;
+
+}
+
+.email a{
+    font-family:'Arial',sans-serif;
 	font-size:12px;
 	color:#f7f7f7;
-	display:inline;
-	margin-right: 12px;
-}
 
+}
 .rights .container{
 	margin-top:0px;
 	color:#f7f7f7;
