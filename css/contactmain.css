@@ -53,43 +53,30 @@ font-family: 'Times New Roman', sans-serif;
 
 
 .email img{
-	height:0.25%;
-	width:2%;
-	margin-top:-20px;
+	height:25px;
+	width:25px;
 }
 
 .phone img {
-	height:0.25%;
-	width:2%;
+	height:25px;
+	width:25px;
 }
 
 .phone a{
-    margin-right:0.5%;
+
 	font-family:'Arial',sans-serif;
 	font-size:13px;
 	color:#f7f7f7;
+
 }
 
 .email a{
     font-family:'Arial',sans-serif;
 	font-size:12px;
 	color:#f7f7f7;
-    margin-top:-0.5%;
-    margin-left:0.5%;
-    position: fixed;
+
 }
 .rights .container{
+	margin-top:0px;
 	color:#f7f7f7;
-	margin-top:-3.8%;
 }
-
-.rights a{
-	margin-left:0.5%;
-	margin-right:1.5%;
-}
-
-.rights p{
-	margin-left:0%;
-}
-
-
