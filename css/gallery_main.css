@@ -6,9 +6,9 @@
     margin-bottom:0px;
     background-attachment: fixed;
 
-     }
+}
 
-    div.img {
+div.img {
     margin-top: 100px;
     padding-top: 100px;
     height: 175;
@@ -25,11 +25,11 @@ div.img img {
 }
 
 div.img a:hover img {
-    border:1px solid #ffffff;
-    width: 350px;
-    height: 350px;
+    
+    width: 600px;
+    height: 450px;
 }
-
+ 
 div.desc {
     text-align: center;
     font-weight: normal;
