@@ -8,7 +8,7 @@
 
 }
 
-div.img {
+.img {
     margin-top: 100px;
     padding-top: 100px;
     height: 175;
@@ -18,19 +18,18 @@ div.img {
     text-align: center;
 }
 
-div.img img {
+.img {
     display: inline;
     margin: 5px;
    
 }
-
-div.img a:hover img {
+.img a:hover img {
     
     width: 600px;
     height: 450px;
 }
  
-div.desc {
+.desc {
     text-align: center;
     font-weight: normal;
     width: 120px;
