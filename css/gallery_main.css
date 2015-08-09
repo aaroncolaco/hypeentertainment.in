@@ -1,9 +1,10 @@
  body {
-    background-image:url('/images/henna.jpg');
+    background-image:url('/images/light.jpg');
     height: 100%;
     background-repeat:no-repeat;
     background-size: cover;
     margin-bottom:0px;
+    background-position:center;
     background-attachment: fixed;
 
 }
@@ -12,6 +13,7 @@
     margin-bottom:3%;
     font-family: 'Comic Sans',serif;
     font-weight:bold;
+    color:#f7f7f7;
 }
 .container{
     margin-top:8%;
@@ -44,6 +46,9 @@ img{
     margin-right:0.5%;
     font-family:'Arial',sans-serif;
     font-size:13px;
+    color:#f7f7f7;
+}
+.phone{
     color:#f7f7f7;
 }
 
