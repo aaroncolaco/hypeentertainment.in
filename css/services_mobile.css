@@ -6,11 +6,12 @@ body{
 	height: 100%;
 	padding-top: 40px;
 	background-position: center;
-	background-image: url('/images/birthday2.jpg');
+	background-image: url('/images/vuurwek1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 0px;
 	background-attachment: fixed;
+	background-position: center;
 }
 .navbar{
 	width: 100%;
@@ -20,7 +21,7 @@ body{
 
 .para h1 {
 	margin-top:10%;
-	margin-bottom:0%;
+	margin-bottom:6%;
     color: #fff;
     font-size: 28px;  
     font-family: 'Times New Roman', sans-serif;
@@ -28,17 +29,18 @@ body{
     text-align:center;
 }
 .para img{
-width:210px;
-height:160px;
+	margin-left:2%;
+    width:210px;
+    height:160px;
 }
 .para p {
-	margin-bottom:9%;
+	margin-bottom:10%;
     font-size: 15px;
     color: #fff;
     font-family: 'Comic Sans', serif;
     text-align:left;
     margin-right:0px;
-    margin-left:40px;
+    margin-left:15px;
 }
 
 .para ul{
@@ -60,4 +62,7 @@ height:160px;
 	padding-top: 50px;
 	padding-left: 20%;
 	padding-right: 26%;
+}
+.phone{
+    color:#f7f7f7;
 }
