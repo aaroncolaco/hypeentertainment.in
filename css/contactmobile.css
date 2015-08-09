@@ -2,7 +2,7 @@ html{
 	height: 100%;
 }
 body{
-	background-image:url('/images/party3.jpg');
+	background-image:url('/images/wedding3.jpg');
 	height: 100%;
 	padding-top: 40px;
 	background-repeat: no-repeat;
@@ -52,4 +52,7 @@ body{
 	padding-top: 50px;
 	padding-left: 20%;
 	padding-right: 26%;
+}
+.phone{
+    color:#f7f7f7;
 }
