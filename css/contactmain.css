@@ -64,11 +64,13 @@ font-family: 'Times New Roman', sans-serif;
 }
 
 .phone a{
-
+    margin-right:0.5%;
 	font-family:'Arial',sans-serif;
 	font-size:13px;
 	color:#f7f7f7;
-
+}
+.phone{
+    color:#f7f7f7;
 }
 
 .email a{
