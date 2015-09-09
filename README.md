@@ -1,1 +1,3 @@
-Website made by Interns for Hype Entertainment Goa - hypeentertainment.in
+# Website made by Interns for Hype Entertainment Goa
+
+Not live
