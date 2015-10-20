@@ -1,3 +1,3 @@
-if (img.click) {
-alert(img)
+function swipe(){
+alert(img);
 }
