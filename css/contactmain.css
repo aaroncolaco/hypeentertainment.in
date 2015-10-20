@@ -38,12 +38,13 @@ height:100%;
 }
 
 .para .container h4 {
-margin-top:10%;
-	color: #000000;
+margin-top:5%;
+margin-bottom:5%;
+color: #000;
 font-size:40px;
 font-family: 'Times New Roman', sans-serif;
-    font-weight: bold;
-    text-align:center;
+font-weight: bold;
+text-align:center;
          
 }
 
@@ -64,11 +65,13 @@ font-family: 'Times New Roman', sans-serif;
 }
 
 .phone a{
-
+    margin-right:0.5%;
 	font-family:'Arial',sans-serif;
 	font-size:13px;
 	color:#f7f7f7;
-
+}
+.phone{
+    color:#f7f7f7;
 }
 
 .email a{
@@ -80,7 +83,7 @@ font-family: 'Times New Roman', sans-serif;
 
 .rights .container{
 	color:#f7f7f7;
-	margin-top:-3.8%;
+	margin-top:-3.6%;
 }
 
 .rights a{
@@ -90,5 +93,11 @@ font-family: 'Times New Roman', sans-serif;
 
 .rights p{
 	margin-left:0%;
+}
+
+.contacts .container{
+    color:#f7f7f7;
+    margin-top:-5.6%;
+
 }
 
