@@ -1,0 +1,18 @@
+html, body {
+	height: 100%;	/*So that the 100% divs are full height*/
+
+	font-family: 'Times New Roman', sans-serif;
+}
+
+.navbar {
+	width: 100%;
+	z-index: 1;
+
+	font-family: sans-serif;
+
+	background-color: #ffffff;
+}
+
+.navbar > .navbar-collapse {
+	text-align: center;
+}
