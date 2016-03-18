@@ -14,6 +14,10 @@
 	.gallery {
 		min-height: 100%;
 	}
+
+	.gallery .container {
+		padding-top: 20%;
+	}
 }
 
 /*Desktop*/
@@ -45,5 +49,9 @@
 
 	.gallery {
 		min-height: 100%;
+	}
+
+	.gallery .container {
+		padding-top: 15%;
 	}
 }

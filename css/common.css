@@ -16,3 +16,37 @@ html, body {
 .navbar > .navbar-collapse {
 	text-align: center;
 }
+
+/*Mobile*/
+@media only screen and (max-width: 700px) {
+	.navbar .navbar-brand {
+		/*padding-right: 80%;*/
+	}
+
+	.navbar .navbar-brand img {
+		max-height: 150%;
+		margin-top: -20%;
+	}
+
+	.nav.navbar-nav li a {
+		font-size: 1.1em;
+		line-height: 2.2em;
+	}
+}
+
+/*Desktop*/
+@media only screen and (min-width: 700px) {
+	.navbar .navbar-brand {
+		padding-right: 80%;
+	}
+
+	.navbar .navbar-brand img {
+		max-height: 300%;
+		margin-top: -17%;
+	}
+
+	.nav.navbar-nav li a {
+		font-size: 1.1em;
+		line-height: 2.2em;
+	}
+}
