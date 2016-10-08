@@ -96,6 +96,10 @@
 	padding-bottom: 8%;
 }
 
+.portfolio .container a {
+	color: #ffffff;
+}
+
 .portfolio .container .weddings {
 	background-image:url('/images/wedding3.jpg');
 	background-position: center;
