@@ -1,0 +1,193 @@
+.jumbotron {
+	min-height: 100%;
+	background-color: transparent;
+}
+
+.jumbotron .container {
+	position: relative;
+	padding-top: 10%;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	color: #ffffff;
+	font-size: 6em;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+
+.jumbotron p {
+	margin-top: 2%;
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.event {
+	min-height: 50%;
+	background-color: transparent;
+	overflow: hidden; /*hides anything that overflows it's boundary*/
+
+	margin-top: -15%;
+}
+
+.event .container {
+	background-image:url('/images/shaggy.jpg');
+	height: 20em;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.about {
+	min-height: 100%;
+	background-color: transparent;
+}
+
+.about .container {
+	position: relative;
+	padding-top: 5%;
+	width: 80%;
+	padding-bottom: 5%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about h1 {
+	padding-bottom: 5%;
+	text-align: center;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	color: #ffffff;
+}
+
+.about p {
+	color: #ffffff;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.about .btn-default {
+	margin-top: 5%;
+	color: #ffffff;
+	background-color: transparent;
+	font-size: 1em;
+	font-weight: bold;
+}
+.about .btn-default:hover {
+	background-color: #5a5aad;
+}
+
+
+.portfolio {
+	min-height: 100%;
+	background-color: transparent;
+}
+
+.portfolio .container {
+	position: relative;
+	padding-top: 5%;
+	width: 90%;
+	/*padding-bottom: 5%;*/
+}
+
+.portfolio .container h1 {
+	color: #ffffff;
+	text-align: center;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	padding-bottom: 5%;
+}
+
+.portfolio .container .weddings {
+	background-image:url('/images/wedding3.jpg');
+	background-position: center;
+	float: left;
+	width: 50%;
+	height: 30em;
+}
+
+.portfolio .container .events {
+	background-image:url('/images/concert.jpg');
+	background-position: center;
+	margin-left: 2px;
+	float: right;
+	width: 49%;
+	height: 30em;
+}
+
+.portfolio .container .type {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 4em;
+	text-align: center;
+	line-height: 5.5em;
+}
+
+
+.contact {
+	min-height: 100%;
+	background-color: transparent;
+	margin-bottom: 2%;
+}
+
+.contact .container {
+	position: relative;
+	padding-top: 5%;
+}
+
+.contact h1 {
+	color: #ffffff;
+	text-align: center;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+	padding-bottom: 5%;
+}
+
+.contact p {
+	color: #ffffff;
+	font-size: 1.2em;
+}
+
+.contact .form-inline .form-group input {
+	width: 160%;
+	margin-bottom: 5%;
+	background-color: rgba(34,34,34,0.5);
+	color: white;
+	font-weight: bold;
+	line-height: 2em;
+}
+
+.contact .form-inline .form-group textarea {
+	width: 122%;
+	margin-bottom: 5%;
+	background-color: rgba(34,34,34,0.5);
+	color: white;
+	font-weight: bold;
+}
+
+.contact .btn-default {
+	color: #ffffff;
+	background-color: rgba(34,34,34,0.5);
+	font-weight: bold;
+}
+.contact .btn-default:hover {
+	background-color: #128F76;
+}
+
+.contact .btn-default i {
+	color: #ffffff;
+	font-size: 1em;
+	padding-right: 5%;
+	font-weight: normal;
+}
+
+
+.form-control::-webkit-input-placeholder { color: white; font-size: 1.2em; }
+.form-control:-moz-placeholder { color: white; font-size: 1.2em; }
+.form-control::-moz-placeholder { color: white; font-size: 1.2em; }
+.form-control:-ms-input-placeholder { color: white; font-size: 1.2em; }

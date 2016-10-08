@@ -1,3 +1,0 @@
-function swipe(){
-alert(img);
-}

@@ -3,18 +3,18 @@
 <html lang="en">
 <head>
 
-    <title>Hype Entertainment</title>
+	<title>Hype Entertainment</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
 	<link rel="icon" type="image/png" href="/logo.png">
 	<meta charset="UTF-8"> 
 	<meta name="description" content="Hype Entertainment ">
-	<meta name="keywords" content="hype, entertainemnt, event, management, goa, weddings, party, aaron de miranda colaco, aarongoa">
+	<meta name="keywords" content="hype, entertainemnt, events, management, goa, weddings, party, bellamy, brothers, shaggy, aaron de miranda colaco, aaroncolaco, aarongoa">
 
 	<meta name="copyright" content="Hype Entertainemt - 2012">
 	<meta name="author" content="Hype Entertainment">
-	<meta name="email" content="roussel@hype-entertainment.com">
+	<meta name="email" content="james@hype-entertainment.com">
 	<meta name="Distribution" content="Global">
 	<meta name="Rating" content="General">
 	<meta name="Robots" content="INDEX,FOLLOW">
@@ -25,73 +25,220 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	
 	<!-- custom css -->
-	<link href="/css/common.css" rel="stylesheet" type="text/css">
-	<link href="/css/main.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" media="(max-width: 700px)" type="text/css" href="/css/mobile-common.css">
+	<link rel="stylesheet" media="(min-width: 700px)" type="text/css" href="/css/main-common.css">
+	<link rel="stylesheet" media="(max-width: 700px)" type="text/css" href="/css/mobile-home.css">
+	<link rel="stylesheet" media="(min-width: 700px)" type="text/css" href="/css/main-home.css">
 </head>
 
 <body>
 
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><img alt="Hype Entertainment" src="/logo.png"></a>
+				<a class="navbar-brand" href="#"><img alt="Hype Entertainment" src="/logo-white.png"></a>
 			</div>
 
+			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li class="active">
-						<a href="index.html">Home</a>
-					</li>
-
-					<li>
-						<a href="gallery.html">Gallery</a>
-					</li>
-
-					<li>
-						<a href="services.html">Services</a>
-					</li>
-
-					<li>
-						<a href="contact.html">Contact Us</a>
-					</li>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
-			</div>
-		</div>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
 	</nav>
 
-	<div class="para">
-		<div class="container">
+	<div class="jumbotron">
+		<div class="container" id="change-navbar">
 			<h1>Hype Entertainment</h1>
-
-			<p>We at <strong>Hype Entertainment</strong> take great pleasure in
-			introducing ourselves as a confident and aspiring events management
-			company with ambition to always deliver high standard of quality
-			and satisfaction to our customers. We help you in planning,
-			scheduling, logistical arrangements, program flow, food and
-			beverage requirements, audio-visual needs, movie selection, and
-			uniform pricing and payment programs in particular Division. Also
-			offering full fledged event packages, right from the Venue (Clubs,
-			Ball Rooms and Banquets) Themes, F & B, Variety Entertainment Line
-			up, DJ Sound with Lights & more.</p>
+			<p id="change-navbar">
+				Promotions and Event Management
+			</p>
 		</div>
 	</div>
+
+
+	<div class="event">
+		<div class="container">
+		</div>
+	</div>
+
+	<div class="about" id="about">
+		<div class="container">
+			<h1>About</h1>
+
+			<p>
+				We take great pleasure in introducing ourselves as a confident and aspiring events management company with ambition to always deliver the highest quality and ensure satisfaction of our customers. <br/> <br/>
+				We handle planning, scheduling, logistical arrangements, program flow, food and beverage requirements, audio-visual needs and uniform pricing and payment programs.We also offer full fledged event packages, right from Venue Themes, F & B, variety entertainment line up, DJ Sound with lights & more.
+			</p>
+				<div class="col-lg-8 col-lg-offset-2 text-center">
+					<a href="#contact" class="btn btn-default">
+						<i class="fa fa-paper-plane-o"></i> Contact
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="portfolio" id="portfolio">
+		<div class="container">
+			<h1>Portfolio</h1>
+			<div class="weddings">
+				<div class="container">
+					<h2 class="type">Weddings</h2>
+				</div>
+			</div>
+
+			<div class="events">
+				<div class="container">
+					<h2 class="type">Events</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="container" id="change-navbar">
+				<div class="form">
+					<h1 id="changingText">Contact</h1>
+					<form class="form-inline" id="form" action="" method="" role="form" autocomplete="on">
+
+						<div class="row">
+							<div class="form-group col-md-3">
+							</div>
+							
+							<div class="form-group col-md-2">
+								<input type="text" class="form-control" required name="fname" id="fname" placeholder="First name*">
+							</div>
+
+							<div class="form-group col-md-1">
+							</div>
+
+							<div class="form-group col-md-2">
+								<input type="text" class="form-control" required name="lname" id="lname" placeholder="Last name*">
+							</div>
+
+							<div class="form-group col-md-3">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-md-3">
+							</div>
+							
+							<div class="form-group col-md-2">
+								<input type="email" class="form-control" required name="email" id="email" placeholder="Email*">
+							</div>
+							
+							<div class="form-group col-md-6">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-md-3">
+							</div>
+							
+							<div class="form-group col-md-2">
+								<input type="tel" pattern="[\+|\d]\d{8,15}" class="form-control" name="number1" id="number1" placeholder="Telephone Number">
+							</div>
+							
+							<div class="form-group col-md-1">
+							</div>
+							
+							<div class="form-group col-md-2">
+								<!-- Pattern for min-max length accepted -->
+								<input type="tel" pattern='[\+|\d]\d{8,15}' class="form-control" name="number2" id="number2" placeholder="Mobile number">
+							</div>
+							
+							<div class="form-group col-md-3">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-md-3">
+							</div>
+							
+							<div class="form-group col-md-2">
+								<input type="text" class="form-control" name="company" id="company" placeholder="Organisation">
+							</div>
+							
+							<div class="form-group col-md-1">
+							</div>
+							
+							<div class="form-group col-md-2">
+								<input type="text" class="form-control" name="designation" id="designation" placeholder="Designation">
+							</div>
+							
+							<div class="form-group col-md-3">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-md-3">
+							</div>
+							
+							<div class="form-group col-md-5" autocomplete="off">
+								<textarea class="form-control" required name="message" id="message" rows="6" cols="10" placeholder="Message*"></textarea>
+							</div>
+							
+							<div class="form-group col-md-3">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group col-md-3">
+							</div>
+							
+							<div class="form-group col-md-5">
+								<button type="submit" class="btn btn-default" id="submitButton"><i class="fa fa-paper-plane-o"></i> Submit</button>
+							</div>
+							
+							<div class="form-group col-md-3">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<div id="footer">
 	</div>
 
+	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 	<script> 
-	//To add footer with credits.
 		$(function(){
 			$("#footer").load("footer.html"); 
 		});
 	</script>
+	
+	<script async type="text/javascript" src="/js/script.js"></script>
+	<script async type="text/javascript" src="/js/contact.js"></script>
+	
+	<script async type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<script async type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<!-- FB JS SDK -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
